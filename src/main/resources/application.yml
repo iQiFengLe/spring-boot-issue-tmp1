@@ -4,7 +4,7 @@ spring:
     user:
       jdbc-url: jdbc:mysql://${USER_DB_HOST:192.168.0.228}:${USER_DB_PORT:6301}/hwuser?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
       username: ${USER_DB_USER:root}
-      password: ${USER_DB_PWD:HW415as*df}
+      password: ${USER_DB_PWD:*df}
       # 初始化连接数
       initial-size: 0
       # 最大连接数
@@ -16,7 +16,7 @@ spring:
     log:
       jdbc-url: jdbc:mysql://${USER_DB_HOST:192.168.0.228}:${USER_DB_PORT:6301}/hwuser?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
       username: ${USER_DB_USER:root}
-      password: ${USER_DB_PWD:HW415as*df}
+      password: ${USER_DB_PWD:*df}
       # 初始化连接数
       initial-size: 0
       # 最大连接数
